@@ -1,0 +1,14 @@
+{
+  "pendulum": {
+    "derived": {
+      "coulomb_friction_N_m": 0.000018728,
+      "inertia_measured_kg_m2": 0.00004626,
+      "viscous_friction_N_m_s": 0.000030221
+    }
+  },
+  "run_meta": {
+    "parameter_status": "synthetic_unidentified_starter",
+    "description": "These fixed synthetic values are not measurements. Replace them using your own system identification; the inertia field retains its historical schema name.",
+    "pendulum_total_mass_kg": 0.01285
+  }
+}

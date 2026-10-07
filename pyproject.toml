@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pendulum-hw1"
+version = "0.1.0"
+description = "Physical rotary pendulum control and reinforcement learning homework"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "mujoco>=3.2,<4", "gymnasium>=1.0,<2", "pyserial>=3.5,<4", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1,<2"]
+firmware = ["platformio>=6.1,<7"]
+rl = ["torch>=2.2,<3", "stable-baselines3>=2.4,<3"]
+
+[project.scripts]
+pendulum-lab = "pendulum_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"pendulum_lab.plant" = ["data/*.json", "data/*.urdf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "diagrams/17HS4023.png": "26b73d0144838a213ac236d014c16f3a2ae820fa34fdc087c4b44d23f3e2c8e9",
+    "diagrams/Arduino Nano.png": "7fd711faad33583374dccf94f2dcf5ac0991e432e859f74c69d7bf82c7a6e30d",
+    "diagrams/DRV8825.png": "07678ae357f4ada107c8334f3a163f24162022e53115f9fe752979388bb4cb54",
+    "meshes/arm.stl": "e490a2914b87fb8cdde1a6a6d1cafc48a83782c3d5a1c37befa60eacfb98e67d",
+    "meshes/base.stl": "ab32db48261bbbe0ffea62ea8e434faea562782d0a71577909db0803e15c11c0",
+    "meshes/lid.stl": "289695f63069cacda12d9e49f12bbedc99897b4f48d9ea862c5e7210ea962c91",
+    "meshes/motor plate.stl": "ee3187630f6ef6f56b97c2fba484d813a4d50e6e2e102933d1d5312e8bdba34e",
+    "meshes/pendulum.stl": "9624b12904c0c52b8a17da8536d8fed468564a7494203ad3f59d73ff60c6bf79"
+  }
+}
